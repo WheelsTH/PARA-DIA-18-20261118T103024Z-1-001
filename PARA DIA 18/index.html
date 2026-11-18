@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bairro em Dia - Capanema PR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="topo">
+            <h1>Bairro em Dia</h1>
+            <p>Um espaço para ajudar a melhorar os bairros de Capanema</p>
+        </div>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#cadastrar">Informar problema</a>
+            <a href="#solicitacoes">Problemas cadastrados</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="boas-vindas">
+            <h2>Vamos cuidar do nosso bairro?</h2>
+            <p>Encontrou um buraco na rua, uma lâmpada queimada ou lixo acumulado? Conte para a comunidade por aqui.</p>
+            <a class="botao" href="#cadastrar">Cadastrar um problema</a>
+        </section>
+
+        <section id="cadastrar" class="secao">
+            <h2>Informar um problema</h2>
+            <p>Preencha os campos abaixo para registrar o que está acontecendo.</p>
+
+            <form action="#" method="get">
+                <label for="nome">Seu nome (opcional):</label>
+                <input type="text" id="nome" name="nome" placeholder="Como podemos te chamar?">
+
+                <label for="bairro">Bairro:</label>
+                <input type="text" id="bairro" name="bairro" placeholder="Ex.: Centro, São José..." required>
+
+                <label for="tipo">Tipo de problema:</label>
+                <select id="tipo" name="tipo" required>
+                    <option value="">Escolha uma opção</option>
+                    <option>Buraco na rua</option>
+                    <option>Iluminação pública</option>
+                    <option>Lixo ou entulho</option>
+                    <option>Calçada ou praça</option>
+                    <option>Outro</option>
+                </select>
+
+                <label for="descricao">O que está acontecendo?</label>
+                <textarea id="descricao" name="descricao" rows="4" placeholder="Explique onde fica e qual é o problema..." required></textarea>
+
+                <label for="imagem">Anexar uma imagem (opcional):</label>
+                <input type="file" id="imagem" name="imagem" accept="image/*">
+                <p class="aviso">A imagem deve ter no máximo 2 MB.</p>
+
+                <button type="submit">Enviar problema</button>
+            </form>
+        </section>
+
+        <section id="solicitacoes" class="secao">
+            <h2>Problemas cadastrados</h2>
+            <p>Veja exemplos de problemas informados pela comunidade.</p>
+
+            <div class="grade">
+                <article class="cartao">
+                    <h3>Buraco na rua</h3>
+                    <p>Bairro: Centro</p>
+                    <p>Existe um buraco perto da praça.</p>
+                    <span class="status">Status: Recebido</span>
+                </article>
+
+                <article class="cartao">
+                    <h3>Iluminação pública</h3>
+                    <p>Bairro: São José</p>
+                    <p>Poste com lâmpada apagada.</p>
+                    <span class="status">Status: Em análise</span>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Projeto escolar - Bairro em Dia | Capanema - Paraná</p>
+    </footer>
+</body>
+</html>
