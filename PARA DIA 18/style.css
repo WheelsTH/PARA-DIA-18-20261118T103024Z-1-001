@@ -6,12 +6,12 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f2f5f3;
-    color: #26352c;
+    background-color: white;
+    color: slategray;
 }
 
 header {
-    background-color: #246b45;
+    background-color: green;
     color: white;
     padding: 20px;
 }
@@ -54,7 +54,7 @@ main {
 }
 
 .boas-vindas {
-    background-color: #dcefe2;
+    background-color: white;
     padding: 35px 20px;
     text-align: center;
     border-radius: 10px;
@@ -68,7 +68,7 @@ main {
 .botao,
 button {
     display: inline-block;
-    background-color: #246b45;
+    background-color: green;
     color: white;
     padding: 12px 18px;
     border: none;
@@ -80,7 +80,7 @@ button {
 
 .botao:hover,
 button:hover {
-    background-color: #174b30;
+    background-color: green;
 }
 
 .secao {
@@ -91,7 +91,7 @@ button:hover {
 }
 
 .secao h2 {
-    color: #246b45;
+    color: green;
     margin-top: 0;
 }
 
@@ -107,7 +107,7 @@ select,
 textarea {
     width: 100%;
     padding: 11px;
-    border: 1px solid #b9c8bd;
+    border: 1px solid lightgrey;
     border-radius: 5px;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
@@ -123,7 +123,7 @@ form button {
 }
 
 .aviso {
-    color: #68756c;
+    color: darkgrey;
     font-size: 13px;
     margin-top: 0;
 }
@@ -136,16 +136,16 @@ form button {
 }
 
 .cartao {
-    border: 1px solid #d5e0d8;
-    border-left: 5px solid #3b9561;
+    border: 1px solid white;
+    border-left: 5px solid green;
     border-radius: 7px;
     padding: 15px;
-    background-color: #fbfdfb;
+    background-color: white;
 }
 
 .cartao h3 {
     margin-top: 0;
-    color: #246b45;
+    color: green;
 }
 
 .imagem-problema {
@@ -161,8 +161,8 @@ form button {
     margin-top: 12px;
     margin-bottom: 10px;
     padding: 6px 10px;
-    background-color: #e2f1e7;
-    color: #246b45;
+    background-color: white;
+    color: green;
     border-radius: 15px;
     font-size: 13px;
 }
@@ -171,7 +171,7 @@ form button {
     width: 100%;
     padding: 10px;
     margin-top: 10px;
-    border: 1px solid #b9c8bd;
+    border: 1px solid lightgrey;
     border-radius: 5px;
     background-color: white;
     cursor: pointer;
@@ -180,15 +180,15 @@ form button {
 .cartao .botao-remover {
     width: 100%;
     margin-top: 10px;
-    background-color: #c0392b;
+    background-color: red;
 }
 
 .cartao .botao-remover:hover {
-    background-color: #922b21;
+    background-color: red;
 }
 
 footer {
-    background-color: #246b45;
+    background-color: green;
     color: white;
     text-align: center;
     padding: 15px;
